@@ -10,6 +10,8 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
+
+  title = 'Portafolio - Bryan Curillo'
   correoElectronico = 'bryancurillo2002@gmail.com';
   imgPerfil = '/src/assets/Bryan.png';
 
@@ -18,7 +20,7 @@ export class AppComponent {
   }
 
   abrirCV() {
-    window.open('https://drive.google.com/file/d/1U9wzmMbEaj7GHAYkquLjaedTMCFv8q43/view?usp=sharing', '_blank');
+    window.open('https://drive.google.com/file/d/11lhfE4kuG0n9QgFgMUl44CAicYz5hyuP/view', '_blank');
   }
 
   abrirGitHub() {
